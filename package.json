@@ -1,0 +1,11 @@
+{
+  "name": "product_preview_card",
+  "version": "1.0.0",
+  "description": "My solution the frontend mentor product preview card challenge",
+  "main": "index.js",
+  "author": "DanishManhas",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}
