@@ -1,0 +1,18 @@
+* {
+  font-size: 14px;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+main {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+}
+
+picture {
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
