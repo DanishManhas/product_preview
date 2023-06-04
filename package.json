@@ -6,7 +6,8 @@
   "author": "DanishManhas",
   "license": "MIT",
   "scripts": {
-    "build": "sass src/stylesheets/index.scss build/stylesheets/style.css"
+    "build": "sass src/stylesheets/index.scss build/stylesheets/style.css",
+    "watch" : "sass --watch src/stylesheets/index.scss build/stylesheets/style.css"
   },
   "devDependencies": {
     "sass": "^1.62.1"
