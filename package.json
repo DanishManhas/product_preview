@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "DanishManhas",
   "license": "MIT",
+  "scripts": {
+    "build": "sass src/stylesheets/index.scss build/stylesheets/style.css"
+  },
   "devDependencies": {
     "sass": "^1.62.1"
   }
