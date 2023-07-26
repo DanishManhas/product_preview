@@ -45,7 +45,6 @@ main {
   box-shadow: 2px 4px #9e9e9e;
   font-family: $text-normal;
   justify-content: space-around;
-  //   font-weight: $font-normal;
   h1 {
     font-family: $text-accent;
     font-weight: $font-bold;
@@ -58,7 +57,7 @@ main {
 
   picture {
     width: 50%;
-    min-height:60vh;
+    min-height: 60vh;
     max-height: 70vh;
     flex-shrink: 0;
   }
@@ -86,18 +85,12 @@ main {
   .cart {
     color: $clr-white;
     background-color: $clr-cyan-primary;
-    // height: 5rem;
-    border-radius: 0.5rem;
-    // margin-top: 5rem;
-    // margin-bottom: 5rem;
 
-    .icon-cart{
-      // background-image: url("/images/icon-cart.svg");
-      // background-color: $clr-white;
-      // display: inline;
-      width: 2rem;;
-      img{
-        // display: inline-block
+    border-radius: 0.5rem;
+
+    .icon-cart {
+      width: 2rem;
+      img {
         height: 1.25rem;
         display: inline;
         width: 2rem;
@@ -115,7 +108,8 @@ main {
   .text-content {
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    width: 50%;
+    max-width: fit-content;
     padding-left: 5rem;
     padding-right: 5rem;
   }
@@ -123,6 +117,8 @@ main {
 
 
 
-@media screen {
-    
+@media (max-width:$mobile) {
+  main{
+
+flex-direction: column;  }
 }

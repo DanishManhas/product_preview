@@ -72,9 +72,16 @@ main .cart h2 {
 main .text-content {
   display: flex;
   flex-direction: column;
-  max-width: 50%;
+  width: 50%;
+  max-width: fit-content;
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+@media (max-width: 375px) {
+  main {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
